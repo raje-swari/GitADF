@@ -1,0 +1,17 @@
+{
+	"name": "AzureBlobStoragefor_KEY_GIT",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVaultingit",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "secretforgit"
+			}
+		}
+	}
+}

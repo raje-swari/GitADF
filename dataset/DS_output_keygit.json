@@ -1,0 +1,23 @@
+{
+	"name": "DS_output_keygit",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragefor_KEY_GIT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "multiplecontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
