@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "candidate_details.txt",
+				"fileName": "getfile.csv",
 				"folderPath": "output",
 				"container": "multiplecontainer"
 			},
