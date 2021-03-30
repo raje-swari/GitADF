@@ -1,0 +1,23 @@
+{
+	"name": "DS_forgithub_keyoutput",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragefor_KEY_GIT",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "candidate_details.txt",
+				"folderPath": "output",
+				"container": "multiplecontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
