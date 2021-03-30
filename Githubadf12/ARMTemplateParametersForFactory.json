@@ -7,6 +7,12 @@
 		},
 		"LS_gitadf_connectionString": {
 			"value": ""
+		},
+		"AzureBlobStoragefor_KEY_GIT_properties_typeProperties_connectionString_secretName": {
+			"value": "secretforgit"
+		},
+		"AzureKeyVaultingit_properties_typeProperties_baseUrl": {
+			"value": "https://keyvaultnewer.vault.azure.net/"
 		}
 	}
 }
