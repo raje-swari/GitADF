@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "STATUS.xlsx",
+				"fileName": "sampledemoadf.txt",
 				"folderPath": "input",
 				"container": "multiplecontainer"
 			},
